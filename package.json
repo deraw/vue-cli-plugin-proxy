@@ -1,0 +1,10 @@
+{
+	"name": "@cnamts/vue-cli-plugin-proxy",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"author": "Dylan Broussard <deraw@outlook.fr>",
+	"dependencies": {
+		"http-proxy-middleware": "^0.18.0"
+	}
+}
