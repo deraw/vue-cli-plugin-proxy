@@ -57,6 +57,7 @@ yarn add @cnamts/vue-cli-plugin-proxy # OR npm install @cnamts/vue-cli-plugin-pr
 module.exports = {
     pluginOptions: {
         proxy: {
+			context: '',
             options: {
                 // ...
             }
@@ -67,7 +68,42 @@ module.exports = {
 
 ### You're done! 🎉
 
-See [http-proxy-middleware](https://www.npmjs.com/package/http-proxy-middleware#example) for `options` object to pass to the plugin.
+See [http-proxy-middleware](https://www.npmjs.com/package/http-proxy-middleware#tldr) for `options` object to pass to the plugin.
+
+#### Object examples
+
+* First example of the docs:
+
+``` js
+// vue.config.js
+module.exports = {
+    pluginOptions: {
+        proxy: {
+			context: '/api',
+            options: {
+                target: 'http://www.example.org',
+                changeOrigin: true
+            }
+        }
+    }
+}
+```
+
+* v1.0.0 default:
+
+``` js
+// vue.config.js
+module.exports = {
+    pluginOptions: {
+        proxy: {
+			context: ['/**', '!/dist/**'],
+            options: {
+                target: 'http://127.0.0.1:8000',
+            }
+        }
+    }
+}
+```
 
 ## License
 
