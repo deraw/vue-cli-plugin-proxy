@@ -14,7 +14,7 @@
 
 <h1 align="center">CNAM – Vue CLI plugin proxy</h1>
 
-<p align="center">This plugin is meant to provide all http-proxy-middleware options to vue-cli.</p>
+<p align="center">This plugin is meant to provide all [http-proxy-middleware](https://www.npmjs.com/package/http-proxy-middleware) options to vue-cli.</p>
 
 <p align="center">
 	<a href="https://www.npmjs.com/package/@cnamts/vue-cli-plugin-proxy">
@@ -38,6 +38,10 @@
 	</a>
 </p>
 
+## Issue
+
+See the issue than initiated this plugin: [#2320](https://github.com/vuejs/vue-cli/issues/2320)
+
 ## As Easy as 1, 2, 3
 
 ### Install
@@ -46,26 +50,24 @@
 yarn add @cnamts/vue-cli-plugin-proxy # OR npm install @cnamts/vue-cli-plugin-proxy
 ```
 
-### Load
+### Use
 
-``` ts
-// main.ts
-import Vue from 'vue';
-import '@cnamts/vue-cli-plugin-proxy';
-
-new Vue({
-    render: (h) => h(App)
-}).$mount('#app');
+``` js
+// vue.config.js
+module.exports = {
+    pluginOptions: {
+        proxy: {
+            options: {
+                // ...
+            }
+        }
+    }
+}
 ```
 
 ### You're done! 🎉
 
-``` bash
-# run your project
-yarn serve # OR your own command
-```
-
-It automatically load all components and directives of the library and made them available globally.
+See [http-proxy-middleware](https://www.npmjs.com/package/http-proxy-middleware#example) for `options` object to pass to the plugin.
 
 ## License
 
