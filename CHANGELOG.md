@@ -1,3 +1,7 @@
+## [v2.1.3](https://github.com/assurance-maladie-digital/vue-cli-plugin-proxy/compare/v2.1.2...v2.1.3) (02-10-2018)
+
+🐛 Fix projectOptions
+
 ## [v2.1.2](https://github.com/assurance-maladie-digital/vue-cli-plugin-proxy/compare/v2.1.1...v2.1.2) (02-10-2018)
 
 * 🐛 Fix README
