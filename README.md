@@ -6,7 +6,7 @@
 	>
 		<img
 			width="280"
-			src="./docs/img/vue.js.svg"
+			src="https://unpkg.com/@cnamts/vue-cli-plugin-proxy@2.1.2/docs/img/vue.js.svg"
 			alt="VueDot"
 		>
 	</a>
