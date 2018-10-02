@@ -1,4 +1,3 @@
-vue-cli-plugin-proxy
 <p align="center">
 	<a
 		href="https://assurance-maladie-digital.github.io/vue-cli-plugin-proxy/"
@@ -7,7 +6,7 @@ vue-cli-plugin-proxy
 	>
 		<img
 			width="280"
-			src="./docs/img/vuejs.png"
+			src="./docs/img/vue.js.svg"
 			alt="VueDot"
 		>
 	</a>
