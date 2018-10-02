@@ -1,6 +1,6 @@
 {
 	"name": "@cnamts/vue-cli-plugin-proxy",
-	"version": "2.1.0",
+	"version": "2.1.1",
 	"description": "Provide all http-proxy-middleware options to vue-cli",
 	"keywords": [
 		"vue",
