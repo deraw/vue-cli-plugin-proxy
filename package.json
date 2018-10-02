@@ -21,6 +21,6 @@
 		"url": "https://github.com/assurance-maladie-digital/vue-cli-plugin-proxy"
 	},
 	"dependencies": {
-		"http-proxy-middleware": "^0.18.0"
+		"http-proxy-middleware": "^0.19.0"
 	}
 }
