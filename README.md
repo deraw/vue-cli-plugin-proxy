@@ -57,7 +57,7 @@ yarn add @cnamts/vue-cli-plugin-proxy # OR npm install @cnamts/vue-cli-plugin-pr
 module.exports = {
     pluginOptions: {
         proxy: {
-			context: '',
+            context: '',
             options: {
                 // ...
             }
