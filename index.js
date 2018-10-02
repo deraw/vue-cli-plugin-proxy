@@ -1,10 +1,10 @@
 var proxy = require('http-proxy-middleware');
 
-module.exports = api => {
+module.exports = (api, options) => {
 	api.configureDevServer((app) => {
 		app.use(proxy(
-			api.projectOptions.pluginOptions.proxy.context,
-			api.projectOptions.pluginOptions.proxy.options
+			options.pluginOptions.proxy.context,
+			options.pluginOptions.proxy.options
 		));
 	});
 };
