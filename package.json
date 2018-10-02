@@ -1,9 +1,25 @@
 {
 	"name": "@cnamts/vue-cli-plugin-proxy",
 	"version": "1.0.0",
-	"description": "",
-	"main": "index.js",
+	"description": "Provide all http-proxy-middleware options to vue-cli",
+	"keywords": [
+		"vue",
+		"vuejs2",
+		"vue-cli",
+		"proxy"
+	],
+	"homepage": "https://github.com/assurance-maladie-digital/vue-cli-plugin-proxy/blob/master/README.md",
+	"bugs": {
+		"url": "https://github.com/assurance-maladie-digital/vue-cli-plugin-proxy/issues",
+		"email": "deraw@outlook.fr"
+	},
+	"license": "MIT",
 	"author": "Dylan Broussard <deraw@outlook.fr>",
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/assurance-maladie-digital/vue-cli-plugin-proxy"
+	},
 	"dependencies": {
 		"http-proxy-middleware": "^0.18.0"
 	}
