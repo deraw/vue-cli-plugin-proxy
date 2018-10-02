@@ -14,7 +14,7 @@
 
 <h1 align="center">CNAM – Vue CLI plugin proxy</h1>
 
-<p align="center">This plugin is meant to provide all [http-proxy-middleware](https://www.npmjs.com/package/http-proxy-middleware) options to vue-cli.</p>
+<p align="center">This plugin is meant to provide all <a href="https://www.npmjs.com/package/http-proxy-middleware">http-proxy-middleware</a> options to vue-cli.</p>
 
 <p align="center">
 	<a href="https://www.npmjs.com/package/@cnamts/vue-cli-plugin-proxy">
