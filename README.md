@@ -57,6 +57,7 @@ yarn add @cnamts/vue-cli-plugin-proxy # OR npm install @cnamts/vue-cli-plugin-pr
 module.exports = {
     pluginOptions: {
         proxy: {
+            enabled: true,
             context: '',
             options: {
                 // ...
@@ -79,7 +80,8 @@ See [http-proxy-middleware](https://www.npmjs.com/package/http-proxy-middleware#
 module.exports = {
     pluginOptions: {
         proxy: {
-			context: '/api',
+            enabled: true,
+            context: '/api',
             options: {
                 target: 'http://www.example.org',
                 changeOrigin: true
@@ -96,7 +98,8 @@ module.exports = {
 module.exports = {
     pluginOptions: {
         proxy: {
-			context: ['/**', '!/dist/**'],
+            enabled: true,
+            context: ['/**', '!/dist/**'],
             options: {
                 target: 'http://127.0.0.1:8000',
             }
@@ -107,4 +110,4 @@ module.exports = {
 
 ## License
 
-Vue CLI plugin proxy is licensed under a [MIT  License](./LICENSE).
+Vue CLI plugin proxy is licensed under a [MIT License](./LICENSE).
