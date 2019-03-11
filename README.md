@@ -40,7 +40,7 @@
 
 ## Issue
 
-See the issue than initiated this plugin: [#2320](https://github.com/vuejs/vue-cli/issues/2320)
+See [the issue than initiated this plugin (#2320)](https://github.com/vuejs/vue-cli/issues/2320)
 
 ## As Easy as 1, 2, 3
 
@@ -110,4 +110,4 @@ module.exports = {
 
 ## License
 
-Vue CLI plugin proxy is licensed under a [MIT License](./LICENSE).
+Vue CLI Plugin Proxy is licensed under [MIT License](./LICENSE).
