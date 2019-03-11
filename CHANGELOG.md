@@ -1,3 +1,7 @@
+## [v2.2.0](https://github.com/assurance-maladie-digital/vue-cli-plugin-proxy/compare/v2.1.6...v2.2.0) (11-03-2019)
+
+* ✨ Add `enabled` option [#1](https://github.com/assurance-maladie-digital/vue-cli-plugin-proxy/pull/1) (thanks to [clemyan](https://github.com/clemyan))
+
 ## [v2.1.6](https://github.com/assurance-maladie-digital/vue-cli-plugin-proxy/compare/v2.1.5...v2.1.6) (02-10-2018)
 
 * 🐛 Simplify API
