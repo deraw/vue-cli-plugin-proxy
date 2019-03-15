@@ -1,3 +1,7 @@
+## [v2.2.1](https://github.com/assurance-maladie-digital/vue-cli-plugin-proxy/compare/v2.2.0...v2.2.1) (15-03-2019)
+
+* 🐛 Handle config without pluginOptions defined [#2](https://github.com/assurance-maladie-digital/vue-cli-plugin-proxy/pull/2) (thanks to [iamphi](https://github.com/iamphi) & [romansp](https://github.com/romansp))
+
 ## [v2.2.0](https://github.com/assurance-maladie-digital/vue-cli-plugin-proxy/compare/v2.1.6...v2.2.0) (11-03-2019)
 
 * ✨ Add `enabled` option [#1](https://github.com/assurance-maladie-digital/vue-cli-plugin-proxy/pull/1) (thanks to [clemyan](https://github.com/clemyan))
