@@ -11,25 +11,10 @@
 <p align="center">This plugin is meant to provide all <a href="https://www.npmjs.com/package/http-proxy-middleware">http-proxy-middleware</a> options to vue-cli.</p>
 
 <p align="center">
-  <a href="https://www.npmjs.com/package/vue-cli-proxy-plugin">
-    <img
-      src="https://img.shields.io/npm/v/vue-cli-proxy-plugin.svg?style=flat-square"
-      alt="NPM Version"
-    >
-  </a>
-  <a href="https://www.npmjs.com/package/vue-cli-proxy-plugin">
-    <img
-      src="https://img.shields.io/npm/dw/vue-cli-proxy-plugin.svg?style=flat-square"
-      alt="NPM Downloads"
-    >
-  </a>
-  <a
-    href="https://github.com/assurance-maladie-digital/vue-cli-plugin-proxy/blob/master/LICENSE">
-    <img
-      src="https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square"
-      alt="License"
-    >
-  </a>
+  <a href="https://www.npmjs.com/package/vue-cli-proxy-plugin"><img src="https://img.shields.io/npm/v/vue-cli-proxy-plugin.svg?style=flat-square" alt="NPM Version"></a>
+  <a href="https://www.npmjs.com/package/vue-cli-proxy-plugin"><img src="https://img.shields.io/npm/dw/vue-cli-proxy-plugin.svg?style=flat-square" alt="NPM Downloads"></a>
+  <a href="https://github.com/assurance-maladie-digital/vue-cli-plugin-proxy/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square" alt="License"></a>
+  <a href="https://github.com/vuejs/vue-cli/issues/2320"><img src="https://img.shields.io/github/issues/detail/state/vuejs/vue-cli/2320.svg?style=flat-square" alt="The issue"></a>
 </p>
 
 ## Issue
@@ -48,15 +33,15 @@ yarn add vue-cli-proxy-plugin
 ```js
 // vue.config.js
 module.exports = {
-		pluginOptions: {
-				proxy: {
-						enabled: true,
-						context: '',
-						options: {
-								// ...
-						}
-				}
-		}
+    pluginOptions: {
+        proxy: {
+            enabled: true,
+            context: '',
+            options: {
+                // ...
+            }
+        }
+    }
 }
 ```
 
@@ -71,16 +56,16 @@ See [http-proxy-middleware](https://www.npmjs.com/package/http-proxy-middleware#
 ```js
 // vue.config.js
 module.exports = {
-		pluginOptions: {
-				proxy: {
-						enabled: true,
-						context: '/api',
-						options: {
-								target: 'http://www.example.org',
-								changeOrigin: true
-						}
-				}
-		}
+    pluginOptions: {
+        proxy: {
+            enabled: true,
+            context: '/api',
+            options: {
+                target: 'http://www.example.org',
+                changeOrigin: true
+            }
+        }
+    }
 }
 ```
 
@@ -89,18 +74,18 @@ module.exports = {
 ```js
 // vue.config.js
 module.exports = {
-		pluginOptions: {
-				proxy: {
-						enabled: true,
-						context: [
-							'/**',
-							'!/dist/**'
-						],
-						options: {
-								target: 'http://127.0.0.1:8000'
-						}
-				}
-		}
+    pluginOptions: {
+        proxy: {
+            enabled: true,
+            context: [
+              '/**',
+              '!/dist/**'
+            ],
+            options: {
+                target: 'http://127.0.0.1:8000'
+            }
+        }
+    }
 }
 ```
 
