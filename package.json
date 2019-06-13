@@ -8,9 +8,9 @@
 		"vue-cli",
 		"proxy"
 	],
-	"homepage": "https://github.com/assurance-maladie-digital/vue-cli-plugin-proxy/blob/master/README.md",
+	"homepage": "https://github.com/deraw/vue-cli-proxy-plugin/blob/master/README.md",
 	"bugs": {
-		"url": "https://github.com/assurance-maladie-digital/vue-cli-plugin-proxy/issues",
+		"url": "https://github.com/deraw/vue-cli-proxy-plugin/issues",
 		"email": "me@deraw.dev"
 	},
 	"license": "MIT",
@@ -21,7 +21,7 @@
 	"main": "index.js",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/assurance-maladie-digital/vue-cli-plugin-proxy"
+		"url": "https://github.com/deraw/vue-cli-proxy-plugin"
 	},
 	"dependencies": {
 		"http-proxy-middleware": "^0.19.0"
