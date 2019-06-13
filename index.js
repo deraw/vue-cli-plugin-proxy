@@ -1,4 +1,4 @@
-var proxy = require('http-proxy-middleware');
+const proxy = require('http-proxy-middleware');
 
 module.exports = (api, options) => {
 	const opts = options.pluginOptions && options.pluginOptions.proxy;

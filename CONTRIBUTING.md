@@ -30,7 +30,7 @@ To create enhancement suggestions, [create a new issue](#submitting-a-good-bug-r
 
 You can look for issues labelled with `help-wanted` if you're not sure where to start!
 
-#### Commit guidelines
+### Commit guidelines
 
 Look at the previous commits for inspiration! But you need it to be explicit, and it should follow these rules:
 
@@ -40,6 +40,6 @@ Look at the previous commits for inspiration! But you need it to be explicit, an
 -   Capitalize the subject line
 -   Use the imperative mood
 
-#### Pull requests
+### Pull requests
 
 When creating a pull request, follow and complete the provided template.
