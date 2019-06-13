@@ -1,6 +1,6 @@
 {
 	"name": "vue-cli-proxy-plugin",
-	"version": "2.2.2",
+	"version": "2.2.3",
 	"description": "Provide all http-proxy-middleware options to vue-cli",
 	"keywords": [
 		"vue",
