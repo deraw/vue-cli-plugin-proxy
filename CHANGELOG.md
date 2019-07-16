@@ -1,3 +1,7 @@
+## [v2.2.4](https://github.com/deraw/vue-cli-plugin-proxy/compare/v2.2.3...v2.2.4) (16-07-2019)
+
+* 🏗 Rename repository (fix [#3](https://github.com/deraw/vue-cli-plugin-proxy/issues/3))
+
 ## [v2.2.3](https://github.com/deraw/vue-cli-plugin-proxy/compare/v2.2.2...v2.2.3) (13-06-2019)
 
 * 📝 Update documentation
