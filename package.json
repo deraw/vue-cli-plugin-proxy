@@ -1,5 +1,5 @@
 {
-	"name": "vue-cli-proxy-plugin",
+	"name": "@deraw/vue-cli-plugin-proxy",
 	"version": "2.2.3",
 	"description": "Provide all http-proxy-middleware options to vue-cli",
 	"keywords": [
@@ -8,9 +8,9 @@
 		"vue-cli",
 		"proxy"
 	],
-	"homepage": "https://github.com/deraw/vue-cli-proxy-plugin/blob/master/README.md",
+	"homepage": "https://github.com/deraw/vue-cli-plugin-proxy/blob/master/README.md",
 	"bugs": {
-		"url": "https://github.com/deraw/vue-cli-proxy-plugin/issues",
+		"url": "https://github.com/deraw/vue-cli-plugin-proxy/issues",
 		"email": "me@deraw.dev"
 	},
 	"license": "MIT",
@@ -21,7 +21,7 @@
 	"main": "index.js",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/deraw/vue-cli-proxy-plugin"
+		"url": "https://github.com/deraw/vue-cli-plugin-proxy"
 	},
 	"dependencies": {
 		"http-proxy-middleware": "^0.19.0"

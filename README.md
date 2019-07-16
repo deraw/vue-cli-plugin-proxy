@@ -11,8 +11,8 @@
 <p align="center">This plugin is meant to provide all <a href="https://www.npmjs.com/package/http-proxy-middleware">http-proxy-middleware</a> options to vue-cli.</p>
 
 <p align="center">
-  <a href="https://www.npmjs.com/package/vue-cli-proxy-plugin"><img src="https://img.shields.io/npm/v/vue-cli-proxy-plugin.svg?style=flat-square" alt="NPM Version"></a>
-  <a href="https://www.npmjs.com/package/vue-cli-proxy-plugin"><img src="https://img.shields.io/npm/dw/vue-cli-proxy-plugin.svg?style=flat-square" alt="NPM Downloads"></a>
+  <a href="https://www.npmjs.com/package/@deraw/vue-cli-plugin-proxy"><img src="https://img.shields.io/npm/v/vue-cli-plugin-proxy.svg?style=flat-square" alt="NPM Version"></a>
+  <a href="https://www.npmjs.com/package/@deraw/vue-cli-plugin-proxy"><img src="https://img.shields.io/npm/dw/vue-cli-plugin-proxy.svg?style=flat-square" alt="NPM Downloads"></a>
   <a href="https://github.com/assurance-maladie-digital/vue-cli-plugin-proxy/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square" alt="License"></a>
   <a href="https://github.com/vuejs/vue-cli/issues/2320"><img src="https://img.shields.io/github/issues/detail/state/vuejs/vue-cli/2320.svg?style=flat-square" alt="The issue"></a>
 </p>
@@ -24,8 +24,8 @@ See [the issue than initiated this plugin (#2320)](https://github.com/vuejs/vue-
 ## Installation
 
 ``` bash
-yarn add vue-cli-proxy-plugin
-# OR npm install vue-cli-proxy-plugin
+yarn add vue-cli-plugin-proxy
+# OR npm install vue-cli-plugin-proxy
 ```
 
 ## Usage
