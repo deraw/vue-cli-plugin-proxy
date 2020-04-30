@@ -6,7 +6,7 @@ First off, thanks for taking the time to contribute! This is really important to
 
 Bugs are reported using [GitHub issues](https://guides.github.com/features/issues/).
 
-Before creating a new issue, [check if your bug hasn't alreaydy been reported](https://github.com/assurance-maladie-digital/vue-cli-plugin-proxy/issues?utf8=%E2%9C%93&q=is%3Aissue). If it's the case and you don't find a solution in the comments, contribute to the issue instead of creating a new one.
+Before creating a new issue, [check if your bug hasn't already been reported](https://github.com/assurance-maladie-digital/vue-cli-plugin-proxy/issues?utf8=%E2%9C%93&q=is%3Aissue). If it's the case and you don't find a solution in the comments, contribute to the issue instead of creating a new one.
 
 ### Submit a (good) bug report
 
