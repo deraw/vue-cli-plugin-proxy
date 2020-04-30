@@ -1,3 +1,9 @@
+## [v2.2.6](https://github.com/deraw/vue-cli-plugin-proxy/compare/v2.2.5...v2.2.6) (30-04-2020)
+
+* ⬆️ Upgrade http-proxy-middleware to v1
+* 📝 Update license
+* 📝 Add SECURITY.md
+
 ## [v2.2.5](https://github.com/deraw/vue-cli-plugin-proxy/compare/v2.2.4...v2.2.5) (16-07-2019)
 
 * 📝 Update README
