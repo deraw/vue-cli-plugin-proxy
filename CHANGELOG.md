@@ -1,3 +1,7 @@
+## [v2.2.7](https://github.com/deraw/vue-cli-plugin-proxy/compare/v2.2.5...v2.2.6) (05-08-2020)
+
+* ⬆️ Upgrade http-proxy-middleware to v1.0.5
+
 ## [v2.2.6](https://github.com/deraw/vue-cli-plugin-proxy/compare/v2.2.5...v2.2.6) (30-04-2020)
 
 * ⬆️ Upgrade http-proxy-middleware to v1
@@ -22,7 +26,7 @@
 
 ## [v2.2.1](https://github.com/deraw/vue-cli-plugin-proxy/compare/v2.2.0...v2.2.1) (15-03-2019)
 
-* 🐛 Handle config without pluginOptions defined [#2](https://github.com/deraw/vue-cli-plugin-proxy/pull/2) (thanks to [iamphi](https://github.com/iamphi) & [romansp](https://github.com/romansp))
+* 🐛 Handle config without `pluginOptions` defined [#2](https://github.com/deraw/vue-cli-plugin-proxy/pull/2) (thanks to [iamphi](https://github.com/iamphi) and [romansp](https://github.com/romansp))
 
 ## [v2.2.0](https://github.com/deraw/vue-cli-plugin-proxy/compare/v2.1.6...v2.2.0) (11-03-2019)
 
@@ -43,7 +47,7 @@
 
 ## [v2.1.3](https://github.com/deraw/vue-cli-plugin-proxy/compare/v2.1.2...v2.1.3) (02-10-2018)
 
-* 🐛 Fix projectOptions
+* 🐛 Fix `projectOptions`
 
 ## [v2.1.2](https://github.com/deraw/vue-cli-plugin-proxy/compare/v2.1.1...v2.1.2) (02-10-2018)
 
@@ -62,7 +66,7 @@
 * ✨ Going open-source
 * 📄 Add MIT License
 * 📝 Add README
-* 💥 Use pluginOptions to allow configuration
+* 💥 Use `pluginOptions` to allow configuration
 
 ## [v1.0.0](https://github.com/deraw/vue-cli-plugin-proxy/compare/v0.0.0...v1.0.0) (14-08-2018)
 

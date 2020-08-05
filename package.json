@@ -1,6 +1,6 @@
 {
 	"name": "@deraw/vue-cli-plugin-proxy",
-	"version": "2.2.6",
+	"version": "2.2.7",
 	"description": "Provide all http-proxy-middleware options to vue-cli",
 	"keywords": [
 		"vue",
